@@ -16,6 +16,8 @@ import java.util.TimeZone;
     "io.pivotal.pal.tracker.users"
 })
 public class App {
+
+
     public static void main(String[] args) {
         TimeZone.setDefault(TimeZone.getTimeZone("UTC"));
         SpringApplication.run(App.class, args);
