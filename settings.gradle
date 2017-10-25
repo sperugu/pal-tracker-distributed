@@ -1,8 +1,9 @@
 rootProject.name = "pal-tracker-distributed"
 
+include "applications:registration-server"
 include "applications:allocations-server"
 include "applications:backlog-server"
-include "applications:registration-server"
+
 include "applications:timesheets-server"
 
 include "components:accounts"
@@ -15,9 +16,10 @@ include "components:users"
 include "components:rest-support"
 include "components:test-support"
 
+include "databases:registration-database"
 include "databases:allocations-database"
 include "databases:backlog-database"
-include "databases:registration-database"
+
 include "databases:timesheets-database"
 
 include "integration-test"
